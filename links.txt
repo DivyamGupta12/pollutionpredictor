@@ -1,0 +1,5 @@
+https://www.youtube.com/watch?v=G_hIppUWcsc&list=WL&index=1 - pinn training
+
+https://github.com/maziarraissi/PINNs
+
+https://www.ready.noaa.gov/index.php - hysplit portal
