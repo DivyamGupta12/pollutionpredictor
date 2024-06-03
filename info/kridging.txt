@@ -9,3 +9,8 @@ https://arxiv.org/pdf/2306.09463
 
 pykridge library
 pyinterpolate
+
+
+pylur
+
+combining Hybrid Kriging-LUR model and an XGBoost algorithm for estimating the spatial-temporal variability of PM2.5 exposures
