@@ -1,0 +1,18 @@
+can the process be modelled as a stochastic process
+can it be a Markov chain
+it can draw inspiration from the epidemiological spread of diseases
+
+epydemic is a Python library that implements simulations of epidemic (and other) processes on networks.
+The most common application is to study the ways in which diseases progress in different network conditions, depending on their infectiousness and other properties, but epydemic can be used to study any network processes of interest.
+
+PyLUR (Python Land Use Regression):
+PyLUR is an efficient software for land use regression modeling that estimates the spatial distribution of air pollutants using GDAL/OGR libraries in Python1.
+It builds LUR models and generates pollutant concentration maps by considering relationships between ambient concentrations and predictor variables from the surrounding environment.
+The software includes four modules:
+Potential predictor variable generation module: Identifies relevant predictors.
+Regression modeling module: Constructs the LUR model.
+Model validation module: Validates the model.
+Prediction and mapping module: Generates concentration maps.
+PyLUR outperforms similar software implemented in R (called RLUR) in terms of model accuracy and processing efficiency.
+If you’re interested in LUR modeling, PyLUR is a great choice!
+ 

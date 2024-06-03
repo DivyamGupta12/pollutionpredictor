@@ -1,0 +1,11 @@
+kriging, also known as Gaussian process regression, is a method of interpolation based on Gaussian process governed by prior covariances. Under suitable assumptions of the prior, kriging gives the best linear unbiased prediction (BLUP) at unsampled locations.
+
+Spatial interpolation is a class of estimation problems where
+ locations with known values are used to estimate values at
+ other locations, with an emphasis on harnessing spatial lo
+cality and trends. 
+
+https://arxiv.org/pdf/2306.09463
+
+pykridge library
+pyinterpolate

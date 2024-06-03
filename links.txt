@@ -3,3 +3,7 @@ https://www.youtube.com/watch?v=G_hIppUWcsc&list=WL&index=1 - pinn training
 https://github.com/maziarraissi/PINNs
 
 https://www.ready.noaa.gov/index.php - hysplit portal
+
+https://github.com/gibeom92/atmospheric_dispersion_PINN
+
+https://link.springer.com/epdf/10.1007/s12524-024-01879-1?sharing_token=s1yMlwhOFc47LR64jSCgP_e4RwlQNchNByi7wbcMAY7SkAe8hl9WRxlRtvtfWzixRWXnKNJ1qZq-IC_Ub7ceXoRv8SFxyZYg9GNK1D-k0XBOQh_Exd2pIdv99MkFIbf7fv269pEmGKnqIH_H1PZI-1aSK0dqkwe2DfXUCbZPT6I%3D
