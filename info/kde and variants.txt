@@ -1,0 +1,29 @@
+https://chatgpt.com/c/8e82dca8-04d6-48e4-bbb0-ee4cb6d17de4
+
+import numpy as np
+import matplotlib.pyplot as plt
+from pykrige.ok import OrdinaryKriging
+
+# Example geological data (e.g., mineral concentration measurements)
+x = np.random.uniform(0, 10, 100)
+y = np.random.uniform(0, 10, 100)
+values = np.random.normal(10, 2, 100)  # example values at the data points
+
+# Create an Ordinary Kriging model
+OK = OrdinaryKriging(x, y, values, variogram_model='linear', verbose=False, enable_plotting=False)
+
+# Create a grid to interpolate values
+gridx = np.linspace(0, 10, 100)
+gridy = np.linspace(0, 10, 100)
+
+# Perform kriging interpolation on the grid
+z, ss = OK.execute('grid', gridx, gridy)
+
+# Plot the results
+plt.imshow(z, extent=(0, 10, 0, 10), origin='lower')
+plt.scatter(x, y, c='red', s=10)
+plt.colorbar(label='Interpolated Values')
+plt.title('Kriging Interpolation of Geological Data')
+plt.xlabel('X Coordinate')
+plt.ylabel('Y Coordinate')
+plt.show()

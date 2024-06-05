@@ -1,0 +1,35 @@
+For models similar to Physics-Informed Neural Networks (PINNs) that integrate physical laws with machine learning, consider the following approaches and frameworks:
+
+### 1. **Deep Operator Networks (DeepONets)**
+DeepONets are designed to learn mappings between function spaces, making them useful for solving differential equations and modeling complex systems. They are a generalization of PINNs and can handle various types of inputs and outputs.
+
+### 2. **Neural Ordinary Differential Equations (Neural ODEs)**
+Neural ODEs incorporate the dynamics of ordinary differential equations into neural networks. They are used for:
+- Modeling continuous-time dynamics.
+- Learning the underlying physical processes directly from data.
+
+### 3. **Fourier Neural Operators (FNOs)**
+FNOs leverage Fourier transforms to learn mappings between function spaces efficiently, particularly useful for solving partial differential equations in high-dimensional spaces. They are designed to capture complex spatial dependencies.
+
+### 4. **Variational Autoencoders (VAEs) with Physics Constraints**
+VAEs can be adapted to include physical constraints, allowing them to generate data consistent with known physical laws. This approach is particularly useful for tasks like anomaly detection and generative modeling in scientific domains.
+
+### 5. **Physics-Constrained Neural Networks (PCNNs)**
+PCNNs explicitly incorporate physical constraints into the training process. These models are tailored to respect conservation laws, symmetries, and other physical properties, ensuring that the learned models adhere to known scientific principles.
+
+### 6. **Gaussian Processes (GPs) with Physical Kernels**
+GPs can be combined with kernels that encode physical properties, enabling them to make predictions that respect known physical laws. This approach is useful for modeling uncertainty in physical systems and making probabilistic predictions.
+
+### 7. **Deep Galerkin Method (DGM)**
+DGM is a deep learning method for solving high-dimensional PDEs. It combines the Galerkin method with deep neural networks to solve complex problems in physics and engineering, such as fluid dynamics and quantum mechanics.
+
+### 8. **Hamiltonian Neural Networks (HNNs)**
+HNNs are designed to learn Hamiltonian functions that govern the dynamics of physical systems. They ensure that the learned dynamics conserve energy, making them suitable for modeling conservative systems.
+
+### 9. **Lagrangian Neural Networks (LNNs)**
+LNNs are similar to HNNs but are based on Lagrangian mechanics. They learn the Lagrangian function of a system, ensuring that the resulting equations of motion respect physical laws like conservation of momentum and energy.
+
+### 10. **Sparse Identification of Nonlinear Dynamical Systems (SINDy)**
+SINDy is a method for identifying governing equations of dynamical systems from data. It combines sparse regression with neural networks to discover the underlying physics, providing interpretable models that adhere to physical laws.
+
+Each of these models and frameworks integrates physical principles with machine learning in unique ways, providing powerful tools for scientific modeling and simulation.
