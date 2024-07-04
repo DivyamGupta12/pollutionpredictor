@@ -1,0 +1,5 @@
+the region will divided in clusters
+intra cluster advection - diffusion to find the local pollution
+inter cluster for the pollution travelling from other clusters
+advection-diffusion equation, 3d model, ctm equation to be used
+the local parameters data will be used for intra cluster
