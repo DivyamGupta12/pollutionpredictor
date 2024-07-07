@@ -1,0 +1,7 @@
+pm 2.5 conc - GEOS-CF or CPCB
+Meteorological Data - ERA5 hourly reanalysis data
+Stations - CPCB
+roads - open street map
+fires- viirs
+datasets for steel,thermal and other power plants
+demographic data - census
